@@ -49,7 +49,7 @@ void showTemperature(float temperature){
    res = ledPins[5];
   } else if(temperature >= 17.0){
    res = ledPins[6];
-  } else if(temperature < 17.0){
+  } else if(temperature >= 16.0){
    res = ledPins[7];
   }else if(temperature < 16.0){
    res = ledPins[8];

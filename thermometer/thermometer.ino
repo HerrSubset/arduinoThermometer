@@ -51,8 +51,6 @@ void showTemperature(float temperature){
    res = ledPins[6];
   } else if(temperature >= 16.0){
    res = ledPins[7];
-  }else if(temperature < 16.0){
-   res = ledPins[8];
   }
   
   digitalWrite(res, HIGH);
